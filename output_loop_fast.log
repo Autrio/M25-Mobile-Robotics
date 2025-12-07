@@ -1,0 +1,286 @@
+2025-12-07 11:17:29.165404: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-12-07 11:17:29.205938: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+/home/autrio/miniconda3/envs/RRC/lib/python3.12/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/attr_value.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/home/autrio/miniconda3/envs/RRC/lib/python3.12/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/tensor.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/home/autrio/miniconda3/envs/RRC/lib/python3.12/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/resource_handle.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/home/autrio/miniconda3/envs/RRC/lib/python3.12/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/tensor_shape.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/home/autrio/miniconda3/envs/RRC/lib/python3.12/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/types.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/home/autrio/miniconda3/envs/RRC/lib/python3.12/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/full_type.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/home/autrio/miniconda3/envs/RRC/lib/python3.12/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/function.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/home/autrio/miniconda3/envs/RRC/lib/python3.12/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/node_def.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/home/autrio/miniconda3/envs/RRC/lib/python3.12/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/op_def.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/home/autrio/miniconda3/envs/RRC/lib/python3.12/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/graph.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/home/autrio/miniconda3/envs/RRC/lib/python3.12/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/graph_debug_info.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/home/autrio/miniconda3/envs/RRC/lib/python3.12/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/versions.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/home/autrio/miniconda3/envs/RRC/lib/python3.12/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/protobuf/config.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/home/autrio/miniconda3/envs/RRC/lib/python3.12/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at xla/tsl/protobuf/coordination_config.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/home/autrio/miniconda3/envs/RRC/lib/python3.12/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/cost_graph.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/home/autrio/miniconda3/envs/RRC/lib/python3.12/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/step_stats.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/home/autrio/miniconda3/envs/RRC/lib/python3.12/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/allocation_description.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/home/autrio/miniconda3/envs/RRC/lib/python3.12/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/tensor_description.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/home/autrio/miniconda3/envs/RRC/lib/python3.12/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/protobuf/cluster.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/home/autrio/miniconda3/envs/RRC/lib/python3.12/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/protobuf/debug.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/home/autrio/miniconda3/envs/RRC/lib/python3.12/site-packages/keras/src/layers/convolutional/base_conv.py:113: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1765086453.190073 1478269 gpu_device.cc:2020] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 6153 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 4060 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.9
+2025-12-07 11:17:33.867185: I external/local_xla/xla/service/service.cc:163] XLA service 0x7bef74016e80 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2025-12-07 11:17:33.867226: I external/local_xla/xla/service/service.cc:171]   StreamExecutor device (0): NVIDIA GeForce RTX 4060 Laptop GPU, Compute Capability 8.9
+2025-12-07 11:17:33.873333: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:269] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+2025-12-07 11:17:33.913733: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:473] Loaded cuDNN version 91002
+I0000 00:00:1765086454.722220 1478561 device_compiler.h:196] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+Created temporary weights file /tmp/tmppmi_be1v.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 943ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 949ms/step
+WARNING:tensorflow:From /home/autrio/miniconda3/envs/RRC/lib/python3.12/site-packages/tensorflow/python/util/deprecation.py:660: calling map_fn_v2 (from tensorflow.python.ops.map_fn) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Use fn_output_signature instead
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 529ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 534ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpn_ly4al3.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 359ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 364ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 296ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 301ms/step
+WARNING:tensorflow:5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x7bf09416fa60> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpt06_y9k4.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 366ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 372ms/step
+WARNING:tensorflow:6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x7bf0941a9800> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 343ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 348ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpya7orgx0.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 363ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 368ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 304ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 309ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpou0jge3m.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 350ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 355ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 289ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 294ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmph7lofe6p.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 339ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 344ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 288ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 294ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmphmea7wsv.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 353ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 358ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 289ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 294ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmppc3zulnq.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 360ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 367ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 290ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 295ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpt70_d9o4.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 354ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 359ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 298ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 303ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp8ocerp2t.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 346ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 351ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 291ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 296ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpbk0zao79.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 346ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 351ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 301ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 307ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpnsk4qorw.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 368ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 373ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 306ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 311ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpr2y8dhs7.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 403ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 408ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 314ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 320ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpk1g_6uc4.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 379ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 384ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 302ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 307ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpajnht_ay.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 352ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 357ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 293ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 298ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpygt_8ufr.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 339ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 344ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 306ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 311ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp7jic7msk.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 341ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 346ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 293ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 298ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp25p07x0a.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 353ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 358ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 303ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 308ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpp4zd78oi.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 702ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 708ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 289ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 294ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp8cdzd09b.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 353ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 359ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 294ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 299ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpnefjuwgv.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 345ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 350ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 297ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 302ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp1mv4v_08.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 372ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 377ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 305ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 310ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpi8ubywm0.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 367ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 372ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 291ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 296ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp4z6neg13.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 355ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 360ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 290ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 295ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmphlgyhlqd.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 349ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 354ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 295ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 300ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+trICP iter 00: mean err 0.000000
+trICP iter 01: mean err 0.000000
+trICP converged.
+Saved outputs to out_run

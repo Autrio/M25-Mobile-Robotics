@@ -1,0 +1,2158 @@
+2025-12-07 11:20:18.042713: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-12-07 11:20:18.084582: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+/home/autrio/miniconda3/envs/RRC/lib/python3.12/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/attr_value.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/home/autrio/miniconda3/envs/RRC/lib/python3.12/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/tensor.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/home/autrio/miniconda3/envs/RRC/lib/python3.12/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/resource_handle.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/home/autrio/miniconda3/envs/RRC/lib/python3.12/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/tensor_shape.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/home/autrio/miniconda3/envs/RRC/lib/python3.12/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/types.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/home/autrio/miniconda3/envs/RRC/lib/python3.12/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/full_type.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/home/autrio/miniconda3/envs/RRC/lib/python3.12/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/function.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/home/autrio/miniconda3/envs/RRC/lib/python3.12/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/node_def.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/home/autrio/miniconda3/envs/RRC/lib/python3.12/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/op_def.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/home/autrio/miniconda3/envs/RRC/lib/python3.12/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/graph.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/home/autrio/miniconda3/envs/RRC/lib/python3.12/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/graph_debug_info.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/home/autrio/miniconda3/envs/RRC/lib/python3.12/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/versions.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/home/autrio/miniconda3/envs/RRC/lib/python3.12/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/protobuf/config.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/home/autrio/miniconda3/envs/RRC/lib/python3.12/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at xla/tsl/protobuf/coordination_config.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/home/autrio/miniconda3/envs/RRC/lib/python3.12/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/cost_graph.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/home/autrio/miniconda3/envs/RRC/lib/python3.12/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/step_stats.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/home/autrio/miniconda3/envs/RRC/lib/python3.12/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/allocation_description.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/home/autrio/miniconda3/envs/RRC/lib/python3.12/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/framework/tensor_description.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/home/autrio/miniconda3/envs/RRC/lib/python3.12/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/protobuf/cluster.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/home/autrio/miniconda3/envs/RRC/lib/python3.12/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.28.3 is exactly one major version older than the runtime version 6.31.1 at tensorflow/core/protobuf/debug.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+/home/autrio/miniconda3/envs/RRC/lib/python3.12/site-packages/keras/src/layers/convolutional/base_conv.py:113: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1765086621.794460 1488147 gpu_device.cc:2020] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 6153 MB memory:  -> device: 0, name: NVIDIA GeForce RTX 4060 Laptop GPU, pci bus id: 0000:01:00.0, compute capability: 8.9
+2025-12-07 11:20:22.419886: I external/local_xla/xla/service/service.cc:163] XLA service 0x7ba30c004030 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2025-12-07 11:20:22.419928: I external/local_xla/xla/service/service.cc:171]   StreamExecutor device (0): NVIDIA GeForce RTX 4060 Laptop GPU, Compute Capability 8.9
+2025-12-07 11:20:22.425880: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:269] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+2025-12-07 11:20:22.463749: I external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:473] Loaded cuDNN version 91002
+I0000 00:00:1765086623.220825 1488416 device_compiler.h:196] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+Created temporary weights file /tmp/tmpbpogxsmh.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 882ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 887ms/step
+WARNING:tensorflow:From /home/autrio/miniconda3/envs/RRC/lib/python3.12/site-packages/tensorflow/python/util/deprecation.py:660: calling map_fn_v2 (from tensorflow.python.ops.map_fn) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Use fn_output_signature instead
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 497ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 502ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpwg1b3zcw.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 341ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 345ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 282ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 287ms/step
+WARNING:tensorflow:5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x7ba43c383a60> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpe1jdzf8f.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 322ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 326ms/step
+WARNING:tensorflow:6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x7ba43c3c1800> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 272ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 277ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp37o6o4sx.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 380ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 385ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 315ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 320ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp1b_7hbn8.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 354ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 360ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 309ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 316ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpkdrspts0.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 369ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 374ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 295ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 300ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp8syz_vug.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 353ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 359ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 301ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 307ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp1vk9lrmj.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 356ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 361ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 301ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 306ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpv58kjr6m.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 350ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 354ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 285ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 291ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmptjzv3opk.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 348ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 353ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 284ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 289ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp2a8h7nx_.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 358ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 364ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 299ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 304ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmplm9d8qn9.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 354ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 359ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 324ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 330ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpfg4nu9gn.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 339ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 346ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 314ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 320ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpta3jhhwp.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 369ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 374ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 330ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 335ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpf5scryhx.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 360ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 365ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 329ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 334ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpwi1vwxtq.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 397ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 402ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 303ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 308ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp0pl6jdki.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 338ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 342ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 289ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 294ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmph8l_dxzj.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 346ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 351ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 282ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 287ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpa47ovhy8.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 587ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 593ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 287ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 294ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpygwcjpyc.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 356ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 361ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 287ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 292ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp1bpndcp_.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 420ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 425ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 290ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 296ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp39ndf8fj.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 346ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 351ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 306ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 311ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp_pavcxxm.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 339ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 344ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 291ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 296ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpxlwwxstw.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 352ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 358ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 318ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 322ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpdwbod1bk.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 340ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 347ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 302ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 308ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp927yf_bc.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 346ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 350ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 282ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 287ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpqsfwjfqt.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 374ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 379ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 294ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 299ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpd5jtpp94.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 378ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 383ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 297ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 302ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp14mpor5p.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 361ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 366ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 285ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 290ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpzevao2xf.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 373ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 378ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 285ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 290ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpvd31h4kl.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 367ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 373ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 288ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 293ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpo7gpsehn.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 380ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 385ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 316ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 322ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpwu5e3_op.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 348ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 353ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 313ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 318ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpaoz48fbo.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 352ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 358ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 316ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 321ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpjnfgwi6v.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 383ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 388ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 286ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 291ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpfi2jrx9i.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 389ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 394ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 298ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 305ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpijqlc9vi.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 349ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 354ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 308ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 313ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp6m34cxtq.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 626ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 633ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 308ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 315ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp3trvli16.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 385ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 390ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 304ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 310ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp763tss2h.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 372ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 378ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 330ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 335ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpe7sjwp30.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 359ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 365ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 304ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 309ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpmgi_isqh.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 370ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 376ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 306ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 312ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp9sxpl9x2.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 392ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 397ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 303ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 308ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp5j1jx0ty.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 404ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 409ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 290ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 295ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpq_mkmd0e.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 372ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 378ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 296ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 300ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp9yn73x8p.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 361ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 367ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 334ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 339ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp54vzwxb1.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 368ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 373ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 321ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 326ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpsb26sjlo.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 369ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 374ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 294ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 299ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpx3b86do5.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 383ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 388ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 287ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 293ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpto5wje10.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 376ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 381ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 299ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 304ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmphj_8p004.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 371ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 376ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 303ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 308ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpw4zqytox.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 344ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 349ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 312ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 317ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpichmso6o.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 362ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 366ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 316ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 322ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpdxzfklt9.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 406ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 411ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 297ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 303ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp7ru83sx7.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 374ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 380ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 293ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 298ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp3bfww5ni.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 383ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 387ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 293ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 297ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpn1ok1sxe.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 401ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 407ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 307ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 313ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpoiodfalw.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 352ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 357ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 315ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 320ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp7m75oefs.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 360ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 367ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 330ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 336ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpdqk2i07y.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 422ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 428ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 345ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 352ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp1nailksb.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 386ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 392ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 298ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 304ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp7lpm308e.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 358ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 363ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 290ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 295ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpp5ivi2zy.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 352ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 357ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 309ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 313ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpnuenisuv.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 364ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 369ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 302ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 307ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpky1a6qnn.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 353ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 358ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 301ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 306ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpxgjyhdmu.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 391ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 397ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 331ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 337ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpjxz67_rm.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 402ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 407ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 343ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 349ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp3l8zq_e5.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 417ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 422ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 320ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 326ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpazdbb02o.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 403ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 408ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 310ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 316ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpiseyxysl.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 394ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 399ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 304ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 313ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpctazigkt.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 349ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 354ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 320ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 325ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp0pepdfdt.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 379ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 384ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 328ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 333ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp3lntra6d.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 383ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 389ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 314ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 319ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmphsg5sy5w.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 412ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 417ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 309ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 315ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpp16rvfyt.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 386ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 391ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 302ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 306ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp8tzdrpwx.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 359ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 365ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 351ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 358ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp_om6keyj.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 425ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 432ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 315ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 321ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpt4r6omf3.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 436ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 442ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 312ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 317ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp9elhpct_.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 414ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 420ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 425ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 430ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpb_89deai.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 393ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 399ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 328ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 333ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpzkpxnthp.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 366ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 372ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 375ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 383ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp_g8rmm3e.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 381ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 386ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 340ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 346ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpxys4o2mo.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 431ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 437ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 336ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 341ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpfq8qtt3z.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 382ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 387ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 320ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 325ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpjj66z4yh.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 363ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 368ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 305ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 310ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp61gf5juo.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 374ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 381ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 296ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 301ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp29z_dgsh.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 369ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 374ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 308ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 313ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpumggongy.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 363ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 369ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 319ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 324ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpo_oqq8qf.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 356ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 362ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 297ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 304ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpbyzfq5sm.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 360ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 365ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 311ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 316ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp48rf87e1.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 385ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 390ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 296ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 301ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpv6iftogd.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 362ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 367ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 294ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 299ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp0vwjxri7.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 362ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 367ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 302ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 307ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpsts0kh7y.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 363ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 368ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 292ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 298ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpjujnw_s7.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 364ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 369ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 306ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 311ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp7e79ot_v.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 363ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 370ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 297ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 302ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpkxp55e2y.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 388ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 396ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 325ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 331ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp_kqvml3z.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 371ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 378ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 307ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 313ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpqboon8kg.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 375ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 382ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 299ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 307ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmptswhluu9.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 362ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 369ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 311ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 316ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp4hvd2mr5.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 377ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 382ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 310ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 315ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpjau1bf10.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 383ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 388ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 317ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 325ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp9hqejpj2.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 367ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 372ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 335ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 341ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpgcvydnk5.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 380ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 386ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 315ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 321ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpu39t2xxc.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 391ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 396ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 297ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 303ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp3zc5fgll.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 367ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 372ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 305ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 310ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpott4sz9r.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 355ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 360ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 316ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 323ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpzpq6egbs.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 349ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 354ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 297ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 302ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpgyowfxgy.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 351ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 356ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 314ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 319ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp3xrre5kp.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 381ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 386ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 297ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 303ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp02vvhkrr.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 342ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 347ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 308ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 313ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpahtiri20.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 378ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 383ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 298ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 303ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpwjhotznb.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 349ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 354ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 297ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 302ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpc2s357ap.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 388ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 393ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 292ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 297ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp9zj_gmoh.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 362ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 368ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 599ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 607ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpsfkgbuti.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 357ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 363ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 309ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 315ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpuf9a7siq.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 392ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 399ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 317ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 322ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpwjcw3974.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 365ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 370ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 303ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 308ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpykancyq1.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 387ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 394ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 319ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 325ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp28g1qb2m.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 374ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 380ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 316ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 321ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp0ju8nwng.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 356ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 361ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 299ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 304ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp_t71f79l.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 377ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 383ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 304ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 310ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp8dva5zg4.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 377ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 383ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 323ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 330ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpioeokbp6.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 351ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 357ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 324ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 330ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp0ih9u4vb.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 354ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 359ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 295ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 300ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpbonhcf3e.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 372ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 377ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 304ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 309ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpdkv39vz2.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 371ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 377ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 329ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 334ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp9sjslu1p.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 369ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 374ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 319ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 326ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpdnb65fs1.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 365ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 371ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 343ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 348ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpnbzn75t5.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 382ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 387ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 312ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 318ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp1a3rj55j.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 363ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 367ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 294ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 299ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpmic9pnc9.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 393ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 398ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 307ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 312ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpsjzlxqe5.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 359ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 364ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 299ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 304ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpg01alzej.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 363ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 368ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 313ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 318ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp8cyvdx6z.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 384ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 389ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 688ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 696ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpjx_n6z3w.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 391ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 398ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 393ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 401ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmph135ywt8.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 370ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 376ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 307ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 313ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp26bopy33.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 360ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 365ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 311ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 316ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpvbn4jfr8.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 364ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 370ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 310ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 317ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpwm8zfnmk.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 349ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 354ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 304ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 313ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmptva13h1w.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 372ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 377ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 295ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 300ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmptupjrx5y.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 409ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 415ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 314ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 319ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpc7niaq2l.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 380ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 386ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 307ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 312ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpusgx6mnw.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 383ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 388ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 307ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 313ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp6uvdwrkp.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 365ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 372ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 305ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 311ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp8h6uqtwm.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 385ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 390ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 323ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 328ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmppuy88awb.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 373ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 378ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 294ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 300ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpz88hrcuz.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 353ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 360ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 307ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 313ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpf_3kyaka.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 347ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 351ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 299ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 306ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpd61hp2s1.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 364ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 369ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 291ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 296ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp753xym1o.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 347ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 352ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 334ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 339ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpvt_3edqg.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 355ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 361ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 310ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 315ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpwy4vlyd1.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 367ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 372ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 307ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 312ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpztq4l94d.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 342ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 347ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 295ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 300ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpj_49xid2.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 700ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 707ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 328ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 335ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpfwgsrp1x.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 394ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 402ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 323ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 331ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpqmihxm9o.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 365ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 372ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 320ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 325ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp9ihvg1te.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 373ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 380ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 311ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 316ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp5fwdcs_g.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 353ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 360ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 301ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 306ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmptqyd68iv.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 363ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 368ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 298ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 304ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp270yq8k4.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 376ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 385ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 383ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 390ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpa3lx7c5w.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 354ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 359ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 325ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 330ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp06igqoym.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 357ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 364ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 304ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 310ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp99ft3ghh.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 348ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 354ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 292ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 297ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp5tk7igso.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 352ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 357ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 301ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 306ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpje9qq26i.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 381ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 386ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 327ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 332ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp1p74oz2c.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 371ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 375ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 305ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 310ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpvmupz2pp.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 385ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 390ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 297ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 302ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpqtgzw5rf.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 382ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 387ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 311ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 316ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpdemmg9ow.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 385ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 390ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 321ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 326ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpw0ag65m2.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 374ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 380ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 289ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 294ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpic6eem6q.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 364ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 369ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 298ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 302ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp_79mbae4.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 349ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 355ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 305ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 310ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmptwbbcayh.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 723ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m1s[0m 730ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 315ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 322ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpghbughb2.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 360ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 366ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 303ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 310ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp9pp3iy0p.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 365ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 371ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 305ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 313ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpkcc49x5x.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 345ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 351ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 290ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 295ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmptnwp2quo.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 345ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 350ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 289ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 294ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpd459epox.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 354ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 359ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 289ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 295ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp_gqobzp7.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 362ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 368ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 316ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 321ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpf5xdrbzc.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 377ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 382ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 315ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 320ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpfqyvrfnn.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 349ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 354ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 301ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 307ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpb1cf10zk.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 341ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 346ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 283ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 288ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpuw8047gf.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 423ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 429ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 294ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 298ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpmwe4owqf.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 354ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 359ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 286ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 291ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp34wu9yat.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 348ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 353ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 296ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 301ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpivuh2ofs.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 347ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 351ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 292ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 297ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpx8cvjd9x.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 381ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 386ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 291ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 296ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpjbwvn4sy.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 372ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 377ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 287ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 292ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpo491zb9f.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 349ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 354ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 291ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 296ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmphk5muchv.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 339ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 343ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 299ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 303ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpj1xvz4jw.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 342ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 347ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 284ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 289ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpowi5y2f1.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 349ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 354ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 287ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 293ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp5e8jx023.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 373ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 380ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 313ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 320ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpzqh7fqzw.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 368ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 375ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 325ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 332ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpq213leyl.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 372ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 378ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 304ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 310ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpzbnumlzx.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 348ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 354ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 322ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 328ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpyfbqzuwl.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 355ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 360ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 294ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 299ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpao053o30.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 347ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 353ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 295ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 300ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpgg5gzyxg.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 353ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 358ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 290ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 295ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp0mgmoq65.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 351ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 356ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 288ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 295ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpfo53f3ll.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 337ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 342ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 295ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 300ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpbmnx1z6z.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 342ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 347ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 284ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 289ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmppunsuhno.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 365ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 370ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 298ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 304ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpxwrpyynq.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 350ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 355ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 289ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 294ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp7bt9pz1f.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 345ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 350ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 297ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 302ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpt1aswkyl.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 351ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 355ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 299ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 304ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpyrecfi75.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 347ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 351ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 301ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 305ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmprdobczid.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 381ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 385ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 329ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 334ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp8zgy153j.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 379ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 384ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 321ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 326ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp_3ugzf2g.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 381ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 387ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 307ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 312ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp_x_qh3fs.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 348ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 352ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 290ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 295ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpue9dam6r.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 379ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 384ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 292ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 298ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpp6fy89ro.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 385ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 390ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 290ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 295ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpvnpdrykn.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 356ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 363ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 319ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 332ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmped8u5hvc.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 367ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 374ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 303ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 312ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp6crt5z8i.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 361ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 367ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 312ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 319ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp2kum0m5p.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 360ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 366ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 308ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 314ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpdchudfyv.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 371ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 376ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 312ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 317ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpzbfp93lr.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 358ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 363ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 292ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 299ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmptyvmcafg.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 342ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 346ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 288ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 296ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp_40xpqtg.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 376ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 382ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 296ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 301ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpds_6outk.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 390ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 395ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 289ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 294ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp_8pevxgm.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 373ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 380ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 305ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 310ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp_t3h0ol4.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 341ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 347ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 294ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 301ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpnz6k1fx1.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 341ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 345ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 289ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 294ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpfspj97mx.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 351ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 356ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 285ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 290ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp090i8wa3.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 367ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 372ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 316ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 321ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp2zp_8ph7.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 368ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 372ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 296ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 302ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpdx4sh6dh.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 354ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 359ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 286ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 291ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp6ijf9gwl.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 352ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 357ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 282ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 287ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmp2187u0_i.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 344ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 349ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 285ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 290ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+Created temporary weights file /tmp/tmpb9gyg5yw.h5 from /home/autrio/linx/college/MR/dostonDynamics_project/model_geo.weight for Keras 3 compatibility.
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 350ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 355ms/step
+Starting head prediction...
+[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 292ms/step[1m1/1[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 297ms/step
+Head prediction finished.
+Type of model_outputs: <class 'list'>
+Length of model_outputs: 2
+Output 0 shape: (1, 1)
+Output 1 shape: (1, 360)
+trICP iter 00: mean err 0.000000
+trICP iter 01: mean err 0.000000
+trICP converged.
+Saved outputs to out_run
